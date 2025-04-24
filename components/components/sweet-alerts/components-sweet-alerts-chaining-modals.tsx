@@ -16,7 +16,7 @@ const ComponentsSweetAlertsChainingModals = () => {
             },
             validationMessage: 'This field is required',
             padding: '2em',
-            customClass: 'sweet-alerts',
+            // customClass: 'sweet-alerts',
         });
         const values: any = [];
         let currentStep;
@@ -27,7 +27,7 @@ const ComponentsSweetAlertsChainingModals = () => {
                 inputValue: values[currentStep],
                 showCancelButton: currentStep > 0,
                 currentProgressStep: currentStep,
-                customClass: 'sweet-alerts',
+                // customClass: 'sweet-alerts',
             });
             if (result.value) {
                 values[currentStep] = result.value;
@@ -44,7 +44,7 @@ const ComponentsSweetAlertsChainingModals = () => {
                 padding: '2em',
                 html: 'Your answers: <pre>' + JSON.stringify(values) + '</pre>',
                 confirmButtonText: 'Lovely!',
-                customClass: 'sweet-alerts',
+                // customClass: 'sweet-alerts',
             });
         }
     };

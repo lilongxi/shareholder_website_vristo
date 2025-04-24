@@ -1,7 +1,7 @@
 'use client';
 import PanelCodeHighlight from '@/components/panel-code-highlight';
 import Nouislider from '@x1mrdonut1x/nouislider-react';
-import 'nouislider/distribute/nouislider.css';
+import 'nouislider/dist/nouislider.min.css';
 import React, { useState } from 'react';
 
 const ComponentsFormRangePickerNonLinear = () => {
